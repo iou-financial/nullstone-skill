@@ -1,0 +1,22 @@
+{
+  "name": "nullstone-skill",
+  "version": "1.0.0",
+  "description": "Claude Code Skill for Nullstone infrastructure orchestration. Deploy, manage, and monitor applications on AWS via Nullstone CLI.",
+  "author": {
+    "name": "iou-financial"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/iou-financial/nullstone-skill",
+  "keywords": [
+    "claude-skill",
+    "claude-code",
+    "nullstone",
+    "aws",
+    "deployment",
+    "infrastructure",
+    "devops",
+    "ecs",
+    "fargate",
+    "model-invoked"
+  ]
+}

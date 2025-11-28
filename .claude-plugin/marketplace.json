@@ -1,0 +1,39 @@
+{
+  "name": "nullstone-skill",
+  "owner": {
+    "name": "iou-financial",
+    "email": "engineering@ioufinancial.com"
+  },
+  "metadata": {
+    "description": "Nullstone infrastructure orchestration skill for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "nullstone-skill",
+      "source": "./",
+      "description": "Claude Code Skill for Nullstone infrastructure orchestration. Deploy applications to AWS ECS Fargate, view logs, check status, and manage environments via Nullstone CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "iou-financial"
+      },
+      "homepage": "https://github.com/iou-financial/nullstone-skill",
+      "repository": "https://github.com/iou-financial/nullstone-skill",
+      "license": "MIT",
+      "keywords": [
+        "claude-skill",
+        "claude-code",
+        "nullstone",
+        "aws",
+        "deployment",
+        "infrastructure",
+        "devops",
+        "ecs",
+        "fargate",
+        "model-invoked"
+      ],
+      "category": "devops",
+      "tags": ["deployment", "aws", "infrastructure", "nullstone", "devops"]
+    }
+  ]
+}
