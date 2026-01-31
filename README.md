@@ -13,54 +13,21 @@ A Claude Code skill for deploying and managing applications on AWS via [Nullston
 
 ## Installation
 
-This skill can be installed via the Claude Code plugin system or manually.
-
-### Option 1: Via Plugin System (Recommended)
+### Via Claude Code Plugin System (Recommended)
 
 ```bash
-# Add this repository as a marketplace
-/plugin marketplace add iou-financial/nullstone-skill
-
-# Install the plugin
-/plugin install nullstone-skill@nullstone-skill
+# Install from marketplace (when published)
+claude plugin install nullstone-skill
 ```
 
-Verify installation by running `/skills` to confirm the skill is available.
+### Manual Installation
 
-### Option 2: Manual Git Clone
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/iou-financial/nullstone-skill.git ~/.claude/plugins/nullstone-skill
+   ```
 
-Install directly from GitHub to your skills directory:
-
-**Global Installation (Available Everywhere):**
-```bash
-# Navigate to your Claude skills directory
-cd ~/.claude/skills
-
-# Clone the skill
-git clone https://github.com/iou-financial/nullstone-skill.git
-
-# The skill is now available in Claude Code
-```
-
-**Project-Specific Installation:**
-```bash
-# Install in a specific project
-cd /path/to/your/project
-mkdir -p .claude/skills
-cd .claude/skills
-git clone https://github.com/iou-financial/nullstone-skill.git
-```
-
-### Option 3: Download Release
-
-1. Download the latest release from [GitHub Releases](https://github.com/iou-financial/nullstone-skill/releases)
-2. Extract to:
-   - Global: `~/.claude/skills/nullstone-skill`
-   - Project: `/path/to/your/project/.claude/skills/nullstone-skill`
-
-### Verify Installation
-
-Run `/skills` to confirm the skill is loaded, then ask Claude to check a Nullstone app status.
+2. The skill will be automatically available in Claude Code.
 
 ## Prerequisites
 
