@@ -1019,7 +1019,6 @@ api_key: <stored in AWS Secrets Manager>
 ```
 
 Connector: `nullstone-production-connector`
-Keys stored in iou-admin-tasks/nullstone_new_relic.md (do not commit to repos).
 
 ## GitHub Actions — Manual Workflow Trigger
 
